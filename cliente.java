@@ -11,7 +11,7 @@ public class Cliente{
     public void setPresupuesto(float  presupuesto){
         this.presupuesto=presupuesto;
     }
-    public String getPresupuesto(){
+    public float getPresupuesto(){
         return this.presupuesto;
     }
     public void setCiudad(String ciudad){
