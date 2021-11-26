@@ -1,6 +1,6 @@
 public class Cliente{
     private String nombre;
-    private String presupuesto;
+    private float presupuesto;
     private String ciudad;
     public void setNombre(String nombre){
         this.nombre=nombre;
@@ -8,7 +8,7 @@ public class Cliente{
     public String getNombre(){
         return this.nombre;
     }
-    public void setPresupuesto(float  presupuesto){
+    public void setPresupuesto(float presupuesto){
         this.presupuesto=presupuesto;
     }
     public float getPresupuesto(){
@@ -22,4 +22,3 @@ public class Cliente{
     }
     
 }
-    
